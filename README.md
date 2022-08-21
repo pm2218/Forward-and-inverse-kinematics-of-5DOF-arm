@@ -4,7 +4,7 @@ The project is divided into 3 parts/files based on the details specified in "Tas
 
 1. **part_1_oop.cpp** - Forward kinematics of a 3DOF robotic arm that receives three joint angle inputs and outputs Cartesian coordinates in the x, y, and z axes. Additionally, it specifies if there will be any ground collisions or if the joint angles are outside the allowed range.
 2. **part_2_oop.cpp** - Analytical Inverse Kinematics of 3DOF arm, which accepts the Cartesian coordinates of x, y, and z and returns one or two sets of potential joint angle values. Checks for any collisions and see if the joint angles fall outside the specified range.
-3. **part_3_oop.cpp** - Iterative Inverse Kinematics of 5DOF arm that uses the Newton-Raphson method to determine the joint angles. The user provides the x, y, and z Cartesian coordinates. 
+3. **part_3_oop.cpp** - Iterative Inverse Kinematics of 5DOF arm that uses the Newton-Raphson method to determine the joint angles. The user provides the x, y, and z Cartesian coordinates as the input and gets the approximate solution for joint angles as the output.
 
 The folder also contains the following files:
 
